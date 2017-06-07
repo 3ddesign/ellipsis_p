@@ -1,0 +1,20 @@
+@import 'normalize';
+@import 'fonts';
+@import 'libs'; //scss plugins
+@import 'vars';
+@import 'app/libs/font-awesome/scss/font-awesome';
+
+body {
+	font-size: 16px;
+	min-width: 320px;
+	line-height: 1.65;
+	font-family: $default-font;
+	position: relative;
+	background-color: #F6F9F9;
+	overflow-x: hidden;
+	opacity: 1;
+}
+
+a {
+	outline: none;
+}
