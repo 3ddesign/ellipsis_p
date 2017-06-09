@@ -1,4 +1,20 @@
 $(function() {
+
+//header to full height:
+function heightDetect() {
+  $(".s-header").css("height", $(window).height());
+};
+
+heightDetect()
+$(window).resize(function() {
+  heightDetect()
+});
+
+  $(window).load(function() {
+  	$(".loaderInner").fadeOut();
+  	$(".loader").delay(400).fadeOut("slow");
+  });
+
     // // Preloader:
     // $(window).on('load', function() {
     //     $('.preloader').delay(1000).fadeOut('slow');

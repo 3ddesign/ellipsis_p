@@ -1,8 +1,8 @@
-@import 'normalize';
-@import 'fonts';
-@import 'libs'; //scss plugins
-@import 'vars';
-@import 'app/libs/font-awesome/scss/font-awesome';
+@import "normalize";
+@import "fonts";
+@import "libs"; //scss plugins
+@import "vars";
+@import "app/libs/font-awesome/scss/font-awesome";
 
 body {
 	font-size: 16px;
@@ -10,7 +10,7 @@ body {
 	line-height: 1.65;
 	font-family: $default-font;
 	position: relative;
-	background-color: #F6F9F9;
+	background-color: #fff;
 	overflow-x: hidden;
 	opacity: 1;
 }
@@ -19,7 +19,35 @@ a {
 	outline: none;
 }
 
+.s-header {
+	position: relative;
+}
 
-* {
-	text-align: center;
+.loader {
+	background: none repeat scroll 0 0 $accent-color;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	background-image: url("../img/preload.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.loaderInner {
+	background-image: url("../img/preload.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
 }
