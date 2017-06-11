@@ -1313,3 +1313,39 @@ to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translat
 body{font-size:16px;min-width:320px;line-height:1.65;font-family:"Lato",sans-serif;position:relative;background-color:#fff;overflow-x:hidden;opacity:1}
 a{outline:0}.s-header{position:relative}.loader{background:none repeat scroll 0 0 #b0bbd0;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:9999;background-image:url("../img/preload.svg");background-repeat:no-repeat;background-position:center center}
 .loaderInner{background-image:url("../img/preload.svg");background-repeat:no-repeat;background-position:center center;background-color:#fff;height:60px;width:60px;margin-top:-30px;margin-left:-30px;left:50%;top:50%;position:absolute}
+h1{color:#fff;font-family:"Lato",sans-serif;font-size:40px;font-weight:bold;text-transform:uppercase}
+h2{display:block;width:40%;position:relative;background-color:#fff;margin:-52px auto;padding:5px 20px;color:#3b3b3b;font-family:"Lato",sans-serif;font-size:34px;font-weight:bold;text-transform:uppercase}
+h3{color:#3b3b3b;font-family:"Lato",sans-serif;font-size:20px;font-weight:bold;text-transform:uppercase}
+.s-header{text-align:center}.s-header .logo{margin-top:18%;margin-bottom:5%}.s-header p{color:#fff;font-family:"Lato";font-size:15px;text-transform:uppercase}
+.s-about{background-color:#fff;height:637px;text-align:center;padding-top:140px}.text-container{margin:auto;width:60%;border:2px solid #3b3b3b;padding:20px 70px}
+.text-container p{margin-top:80px;color:#3b3b3b;font-size:16px}.s-services{height:485px;text-align:center;padding-top:140px}
+.wh-clo{border:2px solid #fff}.wh-clo h2{background-color:transparent;margin-top:1px;color:#fff}
+.wh-clo p{color:#fff}.s-works{background-color:#fff;text-align:center;padding-top:140px}
+.works-item{margin-top:120px}footer{position:relative;text-align:center}footer img{margin-right:30px}
+footer span{color:#3b3b3b;font-size:14px}.s-contacts{padding-top:120px;padding-bottom:120px;text-align:center;position:relative}
+.button{display:block;margin:20px;border-radius:1px;text-transform:uppercase;background-color:#3c3c3c;color:#fff;font-size:13px;padding:14px 102px;text-decoration:none}
+.button:visited{color:#fff;text-decoration:none}.button:hover{background-color:#161616;text-decoration:none;color:#fff}
+.unu{margin-top:6px}.doi,.trei,.unu{-webkit-animation:mouse-scroll 1s infinite;-moz-animation:mouse-scroll 1s infinite}
+.unu{-webkit-animation-delay:.1s;-moz-animation-delay:.1s;-webkit-animation-direction:alternate}
+.doi{-webkit-animation-delay:.2s;-moz-animation-delay:.2s;-webkit-animation-direction:alternate}
+.trei{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-webkit-animation-direction:alternate}
+.mouse{margin:25% auto;height:21px;width:14px;border-radius:10px;transform:none;border:2px solid white;top:170px}
+.wheel{height:5px;width:2px;display:block;margin:5px auto;background:white;position:relative}
+.wheel{-webkit-animation:mouse-wheel 1.2s ease infinite;-moz-animation:mouse-wheel 1.2s ease infinite}
+@-webkit-keyframes mouse-wheel{0%{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
+100%{opacity:0;-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px)}
+}@-moz-keyframes mouse-wheel{0%{top:1px}50%{top:2px}100%{top:3px}
+}@-webkit-keyframes mouse-scroll{0%{opacity:0}50%{opacity:.5}
+100%{opacity:1}}@-moz-keyframes mouse-scroll{0%{opacity:0}
+50%{opacity:.5}100%{opacity:1}}@-o-keyframes mouse-scroll{0%{opacity:0}
+50%{opacity:.5}100%{opacity:1}}@keyframes mouse-scroll{0%{opacity:0}
+50%{opacity:.5}100%{opacity:1}}@media only screen and (max-width:1200px){h2{font-size:25px;margin:-48px auto;white-space:nowrap}
+.logo{margin-top:1%;margin-bottom:5%}}@media only screen and (max-width:992px){.text-container{width:80%}
+}@media only screen and (max-width:768px){.text-container{width:80%;padding:23px 20px}
+h2{font-size:20px;margin:-48px auto;white-space:nowrap}.s-header p{font-size:14px}
+}@media only screen and (max-width:480px){.text-container{width:85%;padding:23px 3px}
+h2{font-size:15px;margin:-41px auto}h1{font-size:40px}.s-header p{font-size:10px}
+.s-services{margin-top:60px}.button{padding:14px 42px}footer span{font-size:12px}
+}@media only screen and (max-width:320px){.text-container{width:85%;padding:23px 3px}
+.text-container p{font-size:12px;margin-top:40px}h2{font-size:12px;padding-left:15px;margin:-38px auto}
+h1{font-size:30px}.s-services{margin-top:-50px}footer span{font-size:10px}}
