@@ -35,7 +35,8 @@ gulp.task('scripts', function() {
         'app/libs/jQuery.mmenu/dist/jquery.mmenu.all.js',
         'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
         'app/libs/animate/wow.min.js',
-        'app/libs/parallax/parallax.min.js'
+        'app/libs/parallax/parallax.min.js',
+        'app/libs/owl-carousel/owl-carousel/owl.carousel.min.js'
     ])
         .pipe(concat('libs.js'))
         .pipe(gulp.dest('app/js'));

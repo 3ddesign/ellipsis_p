@@ -20,34 +20,23 @@ a {
 }
 
 .main-mnu {
-	display: block;
+	display: inline-block;
 	width: 100%;
 	position: fixed;
 	background-color: #fff;
 	text-align: center;
 	z-index: 100;
-box-shadow: 2px 3px 34px -7px rgba(0,0,0,0.75);
-	.logo-top {
-		margin-right: 150px;
-span {
-	margin-left: 20px;
-	color: $main-color;
-	font-family: $default-font;
-	font-size: 20px;
-	font-weight: bold;
-	text-transform: uppercase;
-
-}
-	}
-
+	box-shadow: 2px 3px 34px -7px rgba(0,0,0,0.75);
+	.top-mnu {
 	ul {
+margin-right: 70px;
 		display: inline-block;
 		list-style-type: none;
-
 		li {
 			text-transform: uppercase;
 			display: inline-block;
 			padding-left: 30px;
+
 			a {
 				color: $main-color;
 				font-family: $default-font;
@@ -56,6 +45,7 @@ span {
 					color: $accent-color;
 					text-decoration: none;
 				}
+			}
 			}
 		}
 	}
@@ -215,7 +205,6 @@ footer {
 	&:hover {
 		transition: all 0.8s ease;
 		transform: scale(1.05);
-		box-shadow: rgba(0,0,0,.35) 0 0 32px;
 
 		&:before {
 			opacity: 0.8;
@@ -224,7 +213,7 @@ footer {
 	}
 
 	img {
-		width: 420px;
+		width: 350px;
 		height: 200px;
 		cursor: pointer;
 	}
@@ -268,8 +257,69 @@ footer {
 		color: #fff;
 	}
 }
-// scroll mouse(header):
 
+//Pop-ups:
+
+.popup-form {
+	position: relative;
+	h3 {
+		text-align: center;
+		font-weight: bold;
+	}
+	label, input, textarea {
+		display: block;
+		width: 100%;
+
+	}
+	label {
+		margin-bottom: 12px;
+		span {
+					font-weight: bold;
+			font-size: 14px;
+			color: #999;
+		}
+	}
+	input,
+	textarea {
+		border: $accent-color 2px solid;
+		padding: 6px 15px;
+
+	}
+}
+
+.form-btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 35%;
+	border: none;
+	width: 90px;
+	height: 40px;
+	padding: 6px 10px;
+}
+
+.success {
+	position: absolute;
+	top: 0;
+	padding-top: 35%;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 2;
+	background-color: #fff;
+	font-size: 23px;
+	font-weight: bold;
+	display: none;
+	&.visible {
+		display: block;
+	}
+}
+
+.success-big {
+	padding-top: 25%;
+}
+
+// scroll mouse(header):
 .unu {
 	margin-top: 6px;
 }
@@ -307,6 +357,7 @@ footer {
 	transform: none;
 	border: 2px solid white;
 	top: 170px;
+	cursor: pointer;
 }
 
 .wheel {
@@ -410,7 +461,7 @@ footer {
 	right: -120px;
 	width: 40px;
 	height: 40px;
-	border-radius: 50%;
+	border-radius: 14px;
 	background-color: #2d394f;
 	text-align: center;
 	opacity: 0.4;
