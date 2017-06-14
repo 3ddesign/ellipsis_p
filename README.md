@@ -2,7 +2,7 @@
 Cheklist:
 - parallax,
 - preloader,
-- mmenu, ??
+- mmenu, 
 - quick and smooth scroll,
 - popups,
 - sendform,
@@ -10,4 +10,4 @@ Cheklist:
 - animation,
 - validation w3c,
 - speed optimization pics,
-  Word Press castomization
+- WordPress cast;
