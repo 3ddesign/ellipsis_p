@@ -1346,7 +1346,7 @@ footer img{margin-right:30px}footer span{color:#3b3b3b;font-size:14px}.s-portfol
 .s-contacts{padding-top:120px;padding-bottom:20px;text-align:center;position:relative}
 .button{display:block;margin:20px;border-radius:1px;text-transform:uppercase;background-color:#3c3c3c;color:#fff;font-size:13px;padding:14px 102px;text-decoration:none}
 .button:visited{color:#fff;text-decoration:none}.button:hover{background-color:#161616;text-decoration:none;color:#fff}
-.popup-form{position:relative}.popup-form h3{text-align:center;font-weight:bold}.popup-form label,.popup-form input,.popup-form textarea{display:block;width:100%}
+.popup-form{position:relative}.popup-form h3{text-align:center;font-weight:bold}.popup-form input,.popup-form label,.popup-form textarea{display:block;width:100%}
 .popup-form label{margin-bottom:12px}.popup-form label span{font-weight:bold;font-size:14px;color:#999}
 .popup-form input,.popup-form textarea{border:#b0bbd0 2px solid;padding:6px 15px}
 .form-btn{margin-top:20px;margin-bottom:20px;margin-left:35%;border:0;width:90px;height:40px;padding:6px 10px}
@@ -1371,10 +1371,11 @@ footer img{margin-right:30px}footer span{color:#3b3b3b;font-size:14px}.s-portfol
 .logo{margin-top:1%;margin-bottom:5%}.po-item img{width:210px;height:190px}.po-item span{margin-top:140px}
 }@media only screen and (max-width:992px){.text-container{width:80%}}@media only screen and (max-width:768px){.text-container{width:80%;padding:23px 20px}
 h2{font-size:20px;margin:-48px auto;white-space:nowrap}.s-header p{font-size:14px}
-}@media only screen and (max-width:480px){.text-container{width:85%;padding:23px 3px}
+.s-header .logo{margin-top:18%}}@media only screen and (max-width:480px){.text-container{width:85%;padding:23px 3px}
 h2{font-size:15px;margin:-41px auto}h1{font-size:40px}.s-header p{font-size:10px}
-.s-services{margin-top:60px}.button{padding:14px 42px}footer span{font-size:12px}
-}@media only screen and (max-width:320px){.text-container{width:85%;padding:23px 3px}
+.s-header .logo{margin-top:18%}.s-services{margin-top:60px}.button{padding:14px 42px}
+footer span{font-size:12px}}@media only screen and (max-width:320px){.text-container{width:85%;padding:23px 3px}
 .text-container p{font-size:12px;margin-top:40px}h2{font-size:12px;padding-left:15px;margin:-38px auto}
 h1{font-size:30px}.s-services{margin-top:-50px}footer span{font-size:10px}.po-item img{width:240px;height:190px}
-.po-item span{margin-top:140px}}
+.po-item span{margin-top:140px}.s-header p{font-size:10px}.s-header .logo{margin-top:18%}
+}
